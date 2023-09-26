@@ -1,0 +1,53 @@
+/* Your document must have a background color that's different than the default background of white. */
+body {
+    background-color: papayawhip;
+}
+
+/* You may need to change the text color so it stands out from the new background. */
+h1 {
+    color: steelblue;
+    /* The heading text must be centered on the page. */
+    text-align: center;
+}
+
+/* Image */
+image {
+    /* All images in the main part of your page must be no wider than 400 pixels on the page. */
+    /* If your image is larger, use CSS to resize the image. */
+    max-width: 400px;
+}
+
+/* Table section */
+table, th, td {
+    border: 1px solid black;
+}
+/* Your page must have a section with id of facts-section. */
+/* Inside facts-section, your page must have a second-level heading describing its contents. The heading must be a direct child of the section. */
+#facts-section h2 {
+    /* The heading inside the section must be underlined. */
+    text-decoration: underline;
+}
+
+/* Quotes section */
+/* The heading must be a direct child of the section. */
+#quotes-section>h2 {
+    /* The heading inside the section must be underlined. */
+    text-decoration: underline;
+}
+#quotes-section blockquote {
+    /* You must use CSS—not HTML—to italicize the quote elements. */
+    font-style: italic;
+}
+
+/* Links section */
+/* Your page must have a section with id of links-section. */
+#links-section>h2 {
+    /* The heading inside the section must be underlined. */
+    text-decoration: underline;
+}
+
+form {
+    border: solid;
+    background-color: thistle;
+    padding: 30px;
+}
